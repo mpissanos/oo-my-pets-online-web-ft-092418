@@ -17,7 +17,7 @@ class Owner
   end
   
   def self.count
-    @@all_owners.length
+    self.length
   end
   
   def say_species
