@@ -18,4 +18,7 @@ class Owner
     @@all.length
   end
   
+  def say_species
+    @species
+  end
 end
