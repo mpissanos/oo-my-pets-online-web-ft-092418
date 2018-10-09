@@ -9,7 +9,7 @@ class Owner
   end
   
   def self.reset_all
-    @@all.size
+    @@all.clear
   end
   
   def self.count
