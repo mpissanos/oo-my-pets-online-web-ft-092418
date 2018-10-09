@@ -1,21 +1,21 @@
 class Owner
-  @@all = []
+  @@all_owners = []
   attr_reader :species
   def initialize(species)
-    @@all << self
+    @@all_owners << self
     @species = species
   end
   
   def self.all
-    @@all
+    @@all_owners
   end
   
   def self.reset_all
-    @@all.clear
+    @@all_owners.clear
   end
   
   def self.count
-    @@all.length
+    @@all_owners.length
   end
   
   def say_species
