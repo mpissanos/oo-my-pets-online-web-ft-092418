@@ -1,5 +1,6 @@
 class Owner
   @@all = []
+  attr_accessor :species
   def initialize(owner)
     @@all << self
   end
@@ -15,4 +16,5 @@ class Owner
   def self.count
     @@all.length
   end
+  
 end
