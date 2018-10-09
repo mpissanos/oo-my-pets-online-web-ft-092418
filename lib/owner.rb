@@ -60,6 +60,7 @@ class Owner
         names.mood = "nervous"
       end
     end
+    pets.clear
   end
 
 end
